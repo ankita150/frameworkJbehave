@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>com.framework.project.stories.GmailLogin</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1>GmailLogin Story</h1>
+<div class="path">com/framework/project/stories/GmailLogin.story</div>
+<div class="scenario">
+<h2>Scenario: Login with Valid credentials and compose a mail</h2>
+<div class="step successful">Given I have opened the gmail url</div>
+<div class="step failed">When I login with username and password <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;Email&quot;}
+Command duration or timeout: 2.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.37.0', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-18 09:51:02'
+System info: host: 'NODE147', ip: '192.168.40.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_45'
+Session ID: 631eefb8-d936-41c1-823b-3140389abbbd
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=15.0.1, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]</span></div>
+<div class="step notPerformed">Then I should be able to login <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<pre class="failure">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;Email&quot;}
+Command duration or timeout: 2.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.37.0', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-18 09:51:02'
+System info: host: 'NODE147', ip: '192.168.40.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_45'
+Session ID: 631eefb8-d936-41c1-823b-3140389abbbd
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=15.0.1, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByName.findElement(By.java:305)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at com.framework.project.pages.LoginPage.enterUsername(LoginPage.java:31)
+	at com.framework.project.classes.Test.login(Test.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jbehave.core.steps.StepCreator$ParameterisedStep.perform(StepCreator.java:550)
+	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:531)
+	at org.jbehave.core.embedder.StoryRunner.runStepsWhileKeepingState(StoryRunner.java:511)
+	at org.jbehave.core.embedder.StoryRunner.runScenarioSteps(StoryRunner.java:475)
+	at org.jbehave.core.embedder.StoryRunner.runCancellable(StoryRunner.java:308)
+	at org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:220)
+	at org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:181)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:229)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:201)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;Email&quot;}
+Build info: version: '2.37.0', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-18 09:51:02'
+System info: host: 'NODE147', ip: '192.168.40.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_45'
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///C:/Users/admin/AppData/Local/Temp/anonymous3959486775019982124webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8891)
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///C:/Users/admin/AppData/Local/Temp/anonymous3959486775019982124webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8900)
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///C:/Users/admin/AppData/Local/Temp/anonymous3959486775019982124webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10844)
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///C:/Users/admin/AppData/Local/Temp/anonymous3959486775019982124webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10849)
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///C:/Users/admin/AppData/Local/Temp/anonymous3959486775019982124webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10791)
+</pre>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

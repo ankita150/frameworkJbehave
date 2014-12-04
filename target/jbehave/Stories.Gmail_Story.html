@@ -1,0 +1,54 @@
+
+<html>
+<body>
+<div class="story"><h1>GmailLogin story</h1>
+<div class="path">Stories/Gmail_Story.story</div>
+<div class="scenario"><h2>Scenario: Login with Valid credentials</h2>   
+ <!-- normal scenario steps -->
+<div class="step successful">Given I have opened the gmail url  </div>
+
+<div class="step successful">When I login with username and password  </div>
+
+<div class="step failed">Then I should be on gmail login page  <span class=\"keyword failed\">(FAILED)</span></div>
+<pre class="failure">org.openqa.selenium.InvalidSelectorException: The given selector  is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression  because of the following error:
+[Exception... "The expression is not a legal expression."  code: "51" nsresult: "0x805b0033 (NS_ERROR_DOM_INVALID_EXPRESSION_ERR)"  location: "file:///C:/Users/admin/AppData/Local/Temp/anonymous6339048279674616239webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js Line: 6492"]
+Command duration or timeout: 2.77 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
+System info: host: 'NODE147', ip: '192.168.40.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_45'
+Session ID: 8241f851-3f84-4e96-954f-f3a839552ba6
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=15.0.1, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.jbehave.steps.HomepageClass.verify_homepage(HomepageClass.java:11)
+	at com.jbehave.steps.Gmail.homepage(Gmail.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jbehave.core.steps.StepCreator$ParameterisedStep.perform(StepCreator.java:533)
+	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:474)</pre>
+<div class="step pending">Then tear down  <span class=\"keyword pending\">(PENDING)</span></div>
+
+</div> <!-- end scenario -->
+</div> <!-- end story -->
+<div><pre class="pending">@Then("tear down")
+@Pending
+public void thenTearDown() {
+  // PENDING
+}
+</pre></div>
+</body>
+</html>
+

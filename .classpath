@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/aopalliance.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/asm.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/bsh.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/cglib.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/cglib-nodep.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/classworlds.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/comfyj-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/commons-codec.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/commons-collections.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/commons-compress.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/commons-exec.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/commons-fileupload.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/commons-io.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/commons-io-2.4-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/commons-io-2.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/commons-io-2.4-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/commons-io-2.4-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/commons-lang.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/commons-lang3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/cssparser.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/freemarker.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/gson.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/guava.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/guice.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/hamcrest-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/hamcrest-integration.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/hamcrest-library.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/htmlunit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/htmlunit-core-js.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/httpclient.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/httpcore.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/httpmime.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/javax.inject.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-ant-4.0-beta-5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-core-3.9.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-core-4.0-beta-5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-core-4.0-beta-5-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-core-4.0-beta-11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-distribution-4.0-beta-5-bin.zip"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-distribution-4.0-beta-5-src.zip"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-google-4.0-beta-5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-groovy-archetype-4.0-beta-5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-guice-archetype-4.0-beta-5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-hudson-plugin-4.0-beta-5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-jenkins-plugin-4.0-beta-5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-maven-plugin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-maven-plugin-4.0-beta-5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-needle-archetype-4.0-beta-5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-odf-4.0-beta-5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-pico-archetype-4.0-beta-5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-rest.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-rest-4.0-beta-5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-scala-4.0-beta-5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-spring-4.0-beta-5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-web-distribution-3.6-beta-2-bin.zip"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-web-io.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-web-io-3.6-beta-2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-web-queue-3.4.3-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-web-resources-3.6-beta-2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-web-runner.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-web-runner-3.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-web-runner-3.6-beta-2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-web-selenium.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-web-selenium-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-web-selenium-java-spring-archetype-3.6-beta-2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jbehave-weld-4.0-beta-5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jersey-client.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jersey-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jetty-http.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jetty-io.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jetty-util.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jetty-websocket.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jexplorer-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jna.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/jniwrap-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/json.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/junit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/maven-artifact.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/maven-artifact-manager.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/maven-default-skin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/maven-model.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/maven-plugin-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/maven-plugin-registry.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/maven-profile.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/maven-project.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/maven-repository-metadata.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/maven-settings.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/mshtml.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/nekohtml.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/netty.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/org.apache.commons.collections.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/paranamer.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/phantomjsdriver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/platform.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/plexus-archiver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/plexus-container-default.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/plexus-interpolation.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/plexus-io.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/plexus-utils.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/resolver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/sac.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/selenium-android-driver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/selenium-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/selenium-chrome-driver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/selenium-firefox-driver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/selenium-htmlunit-driver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/selenium-ie-driver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/selenium-iphone-driver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/selenium-java.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/selenium-remote-driver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/selenium-safari-driver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/selenium-support.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/serializer.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/slf4j-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/velocity.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/wagon-provider-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/watij_release_3.2.1.zip"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/watijcom.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/webbit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/wicket-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/wicket-extensions.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/wicket-guice.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/wicket-ioc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/wicket-request.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/wicket-util.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/wicket-velocity.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/winpack-3.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/xalan.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/xml-apis.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/xmlpull.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/xpp3_min.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/Alljbehavejars/xstream.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/jars/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/jars/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/jars/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/jars/freemarker-2.3.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/jars/gherkin-2.12.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/jars/gherkin-jvm-deps-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/jars/jbehave-core-4.0-beta-3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/jars/jbehave-gherkin-4.0-beta-3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/jars/jbehave-junit-runner-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/jars/paranamer-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/jars/selenium-java-2.41.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/Jbehave/jars/selenium-java-2.41.0-srcs.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

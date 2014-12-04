@@ -1,0 +1,8 @@
+2014-11-27 10:30:50,170 [pool-1-thread-1] INFO  com.framework.project.util.Logs  - username
+2014-11-27 10:30:50,173 [pool-1-thread-1] ERROR com.framework.project.util.Logs  - xpath not found
+2014-11-27 11:09:47,021 [pool-1-thread-1] INFO  com.framework.project.util.Logs  - username
+2014-11-27 11:09:47,023 [pool-1-thread-1] ERROR com.framework.project.util.Logs  - xpath not found
+2014-11-27 12:00:14,235 [pool-1-thread-1] INFO  com.framework.project.util.Logs  - username
+2014-11-27 12:00:14,238 [pool-1-thread-1] ERROR com.framework.project.util.Logs  - xpath not found
+2014-11-27 12:27:35,840 [pool-1-thread-1] INFO  com.framework.project.util.Logs  - username
+2014-11-27 12:27:35,842 [pool-1-thread-1] ERROR com.framework.project.util.Logs  - xpath not found
